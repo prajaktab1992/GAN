@@ -52,7 +52,7 @@ GANs try to replicate a probability distribution. They should therefore use loss
 
 ![image](https://user-images.githubusercontent.com/52082561/110196934-fca2e100-7e6d-11eb-9675-a78b21fa7f12.png)
 
-![image](https://user-images.githubusercontent.com/52082561/110196938-0298c200-7e6e-11eb-8b66-852dc4ae13fd.png)
+
 
 
 
