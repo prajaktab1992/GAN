@@ -6,7 +6,8 @@ Generative adversarial networks (GANs) are an exciting recent innovation in mach
 
 
 ### Architecture
-![image](https://user-images.githubusercontent.com/52082561/110197011-89e63580-7e6e-11eb-91e5-8bc327eaed74.png)
+![image](https://user-images.githubusercontent.com/52082561/110197033-bef28800-7e6e-11eb-941c-e26966393c91.png)
+
 
 
 Models that predict the next word in a sequence are typically generative models (usually much simpler than GANs) because they can assign a probability to a sequence of words.
