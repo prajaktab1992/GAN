@@ -1,7 +1,11 @@
 # GAN (Generative adversarial networks)
 
 Generative adversarial networks (GANs) are an exciting recent innovation in machine learning. GANs are generative models: they create new data instances that resemble your training data.Generative models can generate new data instances.Discriminative models discriminate between different kinds of data instances.
+### Generator and discriminator
 
+![image](https://user-images.githubusercontent.com/52082561/110196934-fca2e100-7e6d-11eb-9675-a78b21fa7f12.png)
+
+### Architecture
 ![image](https://user-images.githubusercontent.com/52082561/110196942-0e848400-7e6e-11eb-9914-eda4c90b5260.png)
 
 Models that predict the next word in a sequence are typically generative models (usually much simpler than GANs) because they can assign a probability to a sequence of words.
@@ -48,9 +52,7 @@ GANs try to replicate a probability distribution. They should therefore use loss
 ###### Wasserstein GANs are less vulnerable to getting stuck than minimax-based GANs, and avoid problems with vanishing gradients. The earth mover distance also has the advantage of being a true metric: a measure of distance in a space of probability distributions. Cross-entropy is not a metric in this sense.
 
 
-### Generator and discriminator
 
-![image](https://user-images.githubusercontent.com/52082561/110196934-fca2e100-7e6d-11eb-9675-a78b21fa7f12.png)
 
 
 
