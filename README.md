@@ -1,6 +1,6 @@
 # GAN (Generative adversarial networks)
 
-Generative adversarial networks (GANs) are an exciting recent innovation in machine learning. GANs are generative models: they create new data instances that resemble your training data.Generative models can generate new data instances.Discriminative models discriminate between different kinds of data instances.
+Generative adversarial networks (GANs) are an exciting recent innovation in machine learning. GANs are generative models: they create new data instances that resemble your training data.Discriminative models discriminate between different kinds of data instances.
 ### Generator and discriminator
 ![image](https://user-images.githubusercontent.com/52082561/110197018-99657e80-7e6e-11eb-84a4-fcd8450c8de7.png)
 
@@ -24,7 +24,7 @@ Many machine learning systems look at some kind of complicated input (say, an im
 
 The big insights that defines a GAN is to set up this modeling problem as a kind of contest. This is where the "adversarial" part of the name comes from. The key idea is to build not one, but two competing networks: a generator and a discriminator. The generator tries to create random synthetic outputs (for instance, images of faces), while the discriminator tries to tell these apart from real outputs (say, a database of celebrities). The hope is that as the two networks face off, they'll both get better and better—with the end result being a generator network that produces realistic outputs.
 
-
+### In short
 A perfect GAN will create fake samples whose distribution is indistinguishable from that of the real samples!
 The generator's loss value decreases when the discriminator classifies fake samples as real (bad for discriminator, but good for generator).
 
@@ -35,7 +35,6 @@ Experiments suggest that the distribution of the noise doesn't matter much, so w
 For convenience the space from which the noise is sampled is usually of smaller dimension than the dimensionality of the output space.
 
 We keep the generator constant during the discriminator training phase. As discriminator training tries to figure out how to distinguish real data from fake, it has to learn how to recognize the generator's flaws. That's a different problem for a thoroughly trained generator than it is for an untrained generator that produces random output.
-
 Similarly, we keep the discriminator constant during the generator training phase. Otherwise the generator would be trying to hit a moving target and might never converge.
 
 ### Convergence :
