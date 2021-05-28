@@ -29,6 +29,10 @@ A perfect GAN will create fake samples whose distribution is indistinguishable f
 The generator's loss value decreases when the discriminator classifies fake samples as real (bad for discriminator, but good for generator).
 
 
+
+#### References:
+https://poloclub.github.io/ganlab/
+
 ### Random input/noise:
 In its most basic form, a GAN takes random noise as its input. The generator then transforms this noise into a meaningful output. By introducing noise, we can get the GAN to produce a wide variety of data, sampling from different places in the target distribution.
 Experiments suggest that the distribution of the noise doesn't matter much, so we can choose something that's easy to sample from, like a uniform distribution. 
